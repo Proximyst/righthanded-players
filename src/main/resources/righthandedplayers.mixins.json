@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.proximyst.righthandedplayers.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "PlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "righthanded-players",
+  "version": "${version}",
+
+  "name": "Right Handed Players",
+  "authors": ["Proximyst"],
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.proximyst.righthandedplayers.RightHandedPlayers"
+    ]
+  },
+  "mixins": [
+    "righthandedplayers.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.8"
+  }
+}
